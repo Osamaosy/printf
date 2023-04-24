@@ -184,4 +184,3 @@ int print_binary(va_list type, char buffer[],
 	}
 	return (count);
 }
-
