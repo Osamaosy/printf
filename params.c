@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * It clears the fields of the "params" structure and resets the buffer.
- * @params: a pointer to the parameters structure.
- * 
- * @ap: a pointer to the arguments.
+ * init_params - clears struct fields and reset buf
+ * @params: the parameters struct
+ * @ap: the argument pointer
  * Return: void.
  */
 void init_params(params_t *params, va_list ap)
